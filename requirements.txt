@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pymongo
+python-dotenv
+pwdlib[argon2]
+python-multipart
+pypdf
+python-docx
+google-genai
+langgraph>=1.2,<2.0
+langgraph-checkpoint-mongodb>=0.5.1,<1.0
+mcp>=2.0,<3.0

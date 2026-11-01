@@ -1,0 +1,3 @@
+.job-brief-button{display:inline-flex;align-items:center;gap:5px;margin-top:8px;padding:0;border:0;background:transparent;color:#267044;font:600 9px Inter,sans-serif;cursor:pointer}
+.job-brief-button:hover{color:#124d2a;text-decoration:underline;text-underline-offset:3px}
+.brief-empty{margin:0;padding:12px;border:1px solid #d5e3d1;border-radius:6px;background:#f0f6ed;color:#45654b;font-size:10px;line-height:1.6}

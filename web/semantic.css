@@ -1,0 +1,22 @@
+.semantic-search-section{display:grid;grid-template-columns:minmax(220px,.72fr) minmax(0,1.28fr);gap:38px;margin:18px 0 0;padding:27px clamp(22px,3.2vw,40px);border:1px solid #244830;border-radius:9px;background:linear-gradient(125deg,#0c2013,#143522 62%,#1a4028);color:#f4f8ef}
+.semantic-search-copy .eyebrow{color:#92d69d;font-size:8px;letter-spacing:1px}
+.semantic-search-copy h2{margin:11px 0 9px;color:#f4f8ef;font:600 clamp(25px,2.8vw,34px)/1.08 'Space Grotesk',sans-serif;letter-spacing:-1px}
+.semantic-search-copy h2 em{color:#81ed9a;font-style:normal}
+.semantic-search-copy p{max-width:310px;margin:0;color:#c0d4c4;font-size:11px;line-height:1.75}
+.semantic-search-main{min-width:0}
+.evidence-search-form{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:11px;align-items:end}
+.evidence-search-form .field{margin:0;color:#d4e1d5;font-size:10px}
+.evidence-search-form .field input{width:100%;min-height:39px;margin-top:6px;padding:9px 11px;border:1px solid #587362;border-radius:5px;background:#10251a;color:#f6faef;font:11px Inter,sans-serif}
+.evidence-search-form .field input::placeholder{color:#9bb3a0}
+.evidence-search-form .field input:focus{outline:0;border-color:#75e58e;box-shadow:0 0 0 3px #75e58e22}
+.evidence-search-form .button-dark{min-height:39px;padding:9px 13px;border:1px solid #63db7f;border-radius:5px;background:#59dc7d;color:#102114;font-size:10px}
+.evidence-search-form .button-dark:hover{background:#7bef98}
+.evidence-search-form .button-dark:disabled{opacity:.65;cursor:wait}
+.evidence-search-results{display:grid;gap:8px;margin-top:13px}
+.evidence-search-empty{margin:0;padding:12px;border:1px solid #355a3d;border-radius:6px;color:#c0d4c4;font-size:10px;line-height:1.6}
+.evidence-match{padding:11px 13px;border:1px solid #355a3d;border-radius:6px;background:#0d2417}
+.evidence-match-meta{display:flex;justify-content:space-between;gap:12px;color:#8fe3a0;font-size:9px;font-weight:600}
+.evidence-match-meta span:last-child{color:#a9bbad;font-weight:400}
+.evidence-match p{margin:6px 0 0;color:#eef6ef;font-size:11px;line-height:1.6;overflow-wrap:anywhere}
+@media(max-width:1000px){.semantic-search-section{grid-template-columns:1fr;gap:18px}}
+@media(max-width:600px){.evidence-search-form{grid-template-columns:1fr}.evidence-search-form .button-dark{justify-self:start}}
