@@ -178,7 +178,7 @@ If the project later collects an appropriate dataset with consent, the next step
 ### 1. Open the project folder
 
 ```powershell
-Set-Location 'D:\KEMEE\Projects\ApplyWise'
+Set-Location '' ''
 ```
 
 ### 2. Create or activate the Python environment
